@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'VMI';
+  navarShow:boolean=false;
+
+  clicktoadd(){
+    alert("hola");
+  }
 }
+

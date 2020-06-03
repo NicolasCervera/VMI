@@ -1,0 +1,56 @@
+html,
+body {
+  height: 100%;
+  color: white;
+}
+
+#log{
+    padding-top: 5em;
+}
+
+.text-center{
+  margin-bottom: 100px;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  /* background-color: rgb(218, 216, 216); */
+  background-color: #2196F3;
+  border-radius: 5px;
+  margin-top: -10px;
+}
+
+.form-signin {
+  width: 500px;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
